@@ -1,0 +1,2 @@
+# PythonStd
+Python study repository
