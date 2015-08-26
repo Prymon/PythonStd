@@ -7,3 +7,7 @@ one = ('one',)      # 括号()既可以表示tuple，又可以表示数学公式
 print(gender)
 print(emtpy)
 print(one)
+
+# *
+tup = tuple([1,2]);
+print(tup,isinstance(tup, tuple),isinstance(tup, list),isinstance(tup, Iterable))

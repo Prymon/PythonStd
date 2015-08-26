@@ -1,5 +1,6 @@
 # coding=utf-8
 #dict
+from _collections_abc import Iterable
 dict = {'name':'admin','passwd':'123456','age':11}
 print(dict['name'],dict['age'])
 
@@ -17,3 +18,35 @@ set = set([3,2,1])
 set.add(4)
 set.add(('a','b'))
 print(set)
+
+# 迭代
+d = {'a': 1, 'b': 2, 'c': 3}
+# 1
+for key,values in d.items():
+    print(key,':',values,end=' | ')
+print()
+# 2
+for key in d:
+    print(key,':',d[key],end=' | ')
+print()
+# 3
+if isinstance(d, Iterable):
+    for k,v in enumerate(d):
+        print(k,':',v,end=' | ')
+    print()
+else:
+    pass
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

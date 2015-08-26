@@ -15,12 +15,3 @@ test('addd','111',**dictx)
 test2('addd',**{'a':2,'b':3})
 print(fact(700))
 
-list = [];
-for n in range(5,9):
-    list.append(n)
-print(list)
-d = {'a': 1, 'b': 2, 'c': 3}
-for key,values in d.items():
-    print(key,values)
-    
-print(isinstance(d, Iterable))
