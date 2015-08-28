@@ -1,7 +1,14 @@
 eclipse.preferences.version=1
+encoding//study/advance/Closure.py=utf-8
+encoding//study/advance/Filter.py=utf-8
+encoding//study/advance/FunctionalProgram.py=utf-8
 encoding//study/advance/Generator.py=utf-8
+encoding//study/advance/MapReduce.py=utf-8
+encoding//study/advance/Object.py=utf-8
+encoding//study/advance/Partial.py=utf-8
 encoding//study/basic/Def.py=utf-8
 encoding//study/basic/DictAndSet.py=utf-8
+encoding//study/basic/Function.py=utf-8
 encoding//study/basic/IfAndFor.py=utf-8
 encoding//study/basic/List.py=utf-8
 encoding//study/basic/String.py=utf-8
